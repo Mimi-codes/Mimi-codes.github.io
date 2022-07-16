@@ -19,7 +19,7 @@ body {
 
     /*Nav*/
 .navbar-nav {
-    margin: 2% 28% 2% 28%;
+    margin: 2% 25% 2% 25%;
 }
 
     .nav-link{
@@ -83,15 +83,23 @@ p{
     display: inline-block;
 }
 
-.first-set {
+.stack {
+    background: rgb(63, 58, 58, .5);
+    box-shadow: 0 4px 8px 0px rgba(0,0,0,0.8);
+    float: left;
+    width: 20%;
     animation: fadeInLeft;
     animation-duration: 3s;
 }
 
-.second-set {
+.others {
+    float: left;
+    width: 30%; 
     animation: fadeInRight;
     animation-duration: 3s;
-    }
+    box-shadow: 0 4px 8px 0px rgba(0,0,0,0.8);
+    background: rgb(63, 58, 58, .5);
+}
 
 li {
     list-style-type: none;
@@ -279,43 +287,6 @@ p {
   .invalid-feedback {
       font-size: medium;
   }
-
-
-
-  .skills {
-    max-width: 68.75rem;
-    margin: auto;
-    text-align: center;
-    margin-top: 2.5rem;
-  }
-  
-  .skill-header {
-    margin-bottom: 1rem;
-  }
-  
-.skills-wrapper {
-    background: rgb(63, 58, 58, .5);
-    margin: 0 15% 0 15%;
-    border-radius: 5px;
-}
-
-  .skills-wrapper img {
-    padding: 1.25rem;
-  }
-  
-  .icon {
-    width: 11.875rem;
-    height: 11.25rem;
-  }
-
-  .icon-card {
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
-    padding: 20px;
-    margin: 10px;
-  }
-
 
 /*MEDIA QUERY*/
 
